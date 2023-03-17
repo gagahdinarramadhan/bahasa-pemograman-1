@@ -1,12 +1,24 @@
-fun main(){
-      println("Hello World")
-      println("gagah")
+//fun main(){
+//      println("Hello World")
+//      println("gagah")
+//
+//      print("pekejaan : ")
+//      var pekerjaan = readLine()
+//
+//      print("Alamant : ")
+//      var alamat = readLine()
+//
+//      println("Pekerjaan kamu adalah $pekerjaan dan alamat kamu di $alamat")
+//}
 
-      print("pekejaan : ")
-      var pekerjaan = readLine()
+    fun main (args: Array<String>) {
+        var namaLengkap: String = "Budianto"
+        var alamat: String
+        alamat = "Yogyakarta"
 
-      print("Alamant : ")
-      var alamat = readLine()
+        var umur = 22
 
-      println("Pekerjaan kamu adalah $pekerjaan dan alamat kamu di $alamat")
-}
+        println(namaLengkap)
+        println(alamat)
+        println(umur)
+    }

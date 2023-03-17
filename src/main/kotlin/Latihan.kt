@@ -21,4 +21,8 @@
         println(namaLengkap)
         println(alamat)
         println(umur)
+
+        var namaLengkap2 = "Budianto"
+        namaLengkap2 = "Ahmad Budianto"
+        println(namaLengkap2)
     }
